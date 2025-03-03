@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio main page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="glich-container" id="text-container">
+        <div class="glitch-text" id="linetext1"></div><br>
+        <div class="glitch-text" id="linetext2"></div>
+        <div class="glitch-text" id="linetext3"></div>
+    </div>
+
+    <header class="header">
+
+        <div id="logo_container"> <img src="images/logo_leo.png" alt="Leonardo" height="45px" width="70px">  </div>
+        <div id="terminal-header">
+            <p>C\:Users\Leonardo Malon> python</p>
+            <p>>>> cd Página principal <span>█</span></p>
+
+        </div>
+
+        <div id="admin_description">Leonardo M.</div>
+        
+    </header>
+
+    <nav class="nav-container">
+        
+        <div class="nav-option1"><a href="automation.html">-> Automatizaciones</a></div>
+        <div class="nav-option2"><a href="powerbi.html">-> Power BI</a></div>
+        <div class="nav-option3"><a href="analisis.html">-> Análisis de Datos</a></div>
+        <div class="nav-option4"><a href="ciencia.html">-> Ciencia de Datos</a></div>
+        <div class="nav-option5"><a href="desarrollo.html">-> Desarrollo Web</a></div>
+        <div class="nav-option6"><a href="proyectos.html">-> Proyectos</a></div>
+        <div class="nav-option7"><a href="https://wa.me/51944700105?text=Hola,%20estoy%20interesado%20en%20tus%20servicios." target="_blank">-> Háblame</a></div>
+
+        
+    </nav>
+
+    <section class="section-container">
+
+        <div class="section-description">
+            <h2 class="header-1">Tu portal para automatizaciones, dashboards,</h2>
+            <h2 class="header-2">análisis de datos, machine learning,</h2>
+            <h2 class="header-3">desarrollo web a nivel <span class="main-cyber">Empresarial</span></h2>
+            <p class="subheader-4">"Ayudo a personas y negocios a automatizar tareas repetitivas, generar dashboards para tomar</p>
+            <p class="subheader-4">decisiones orientadas en los datos para una mejor eficiencia y crecimiento."</p>
+        </div>
+
+        <div class="container-squares">
+            <div class="square"></div>
+            <div class="square">
+
+                <p class="call-to-action"><span class="main-cyber">Ejecuta</span> una de las opciones de ejemplo</span> y <span class="main-cyber">luego navega...</span></p>
+                
+                <div class="window-controls">
+                    <div class="control minimize"></div>
+                    <div class="control maximize">
+                        <div class="inner-square"></div>
+                    </div>
+                    <div class="control close"></div>
+                </div>
+
+
+                <div class="container-options">
+                    <p class="list-options1">Quiero <span class="main-cyber">automatizar</span> la <span class="main-cyber">descarga de reportes de SAP</span> hacia un archivo excel</p> <span id="arrow1">---></span>
+                    <p class="list-options2">Quiero <span class="main-cyber">generar</span> un <span class="main-cyber">dashboard interactivo</span> con los indicadores de mi área</p> <span id="arrow2">---></span>
+                    <p class="list-options3">Quiero <span class="main-cyber">automatizar</span> el <span class="main-cyber">envío de correos diarios</span> en mi trabajo</p> <span id="arrow3">---></span>
+
+                    <button  class="openModal"id="button1" data-video="video1.mp4">Ejecutar</button>
+                    <button class="openModal" id="button2"  data-video="video1.mp4">Ejecutar</button>
+                    <button class="openModal" id="button3" data-video="video1.mp4">Ejecutar</button>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div id="videoModal" class="modal">
+            <div class="modal-content">
+                <span class="close1">&times;</span>
+                <video id="videoPlayer" controls>
+                    <source id="videoSource" src="" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="image-slider">
+
+        <div class="list-slider">
+            <div class="item" style="--position: 1"><img src="images/logo1.png" /></div>
+            <div class="item" style="--position: 2"><img src="images/logo2.png"/></div>
+            <div class="item" style="--position: 3"><img src="images/logo3.png" /></div>
+            <div class="item" style="--position: 4" ><img src="images/logo4.png" /></div>
+            <div class="item" style="--position: 5"><img src="images/logo5.png" /></div>
+            <div class="item"  style="--position: 6"><img src="images/logo6.png" /></div>
+            <div class="item" style="--position: 7"><img src="images/logo7.png" /></div>
+            <div class="item" style="--position: 8"><img src="images/logo8.png"  /></div>
+        </div>
+    </footer>
+
+    <script src="logic.js" ></script>
+
+</body>
+</html>
