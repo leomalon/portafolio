@@ -191,7 +191,7 @@ body{
 }
 .list-options1 {
     grid-column-start: 3;
-    grid-column-end: 15;
+    grid-column-end: 14;
     grid-row-start: 6;
     grid-row-end: 8;
 }
